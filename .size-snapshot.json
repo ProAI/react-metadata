@@ -1,0 +1,31 @@
+{
+  "react-metadata.cjs.js": {
+    "bundled": 7547,
+    "minified": 4328,
+    "gzipped": 1651
+  },
+  "react-metadata.umd.min.js": {
+    "bundled": 8402,
+    "minified": 3898,
+    "gzipped": 1602
+  },
+  "react-metadata.umd.js": {
+    "bundled": 8402,
+    "minified": 3898,
+    "gzipped": 1602
+  },
+  "react-metadata.esm.js": {
+    "bundled": 7176,
+    "minified": 4014,
+    "gzipped": 1567,
+    "treeshaked": {
+      "rollup": {
+        "code": 63,
+        "import_statements": 54
+      },
+      "webpack": {
+        "code": 1085
+      }
+    }
+  }
+}
