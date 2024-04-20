@@ -1,0 +1,42 @@
+{
+  "name": "react-metadata",
+  "version": "1.0.0",
+  "description": "React.js metadata handler",
+  "author": "Markus Wetzel <markuswetzel@gmx.net>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "meta",
+    "metadata"
+  ],
+  "repository": "https://github.com/ProAI/react-metadata.git",
+  "bugs": {
+    "url": "https://github.com/ProAI/react-metadata/issues"
+  },
+  "main": "dist/react-metadata.cjs.js",
+  "module": "dist/react-metadata.esm.js",
+  "scripts": {
+    "build": "packsy build",
+    "dev": "packsy dev",
+    "prepublishOnly": "packsy validate && packsy build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "packsy": "0.2.2",
+    "react": "18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "packsy pre-commit"
+    }
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5"
+  }
+}
