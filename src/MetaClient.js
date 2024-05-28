@@ -84,6 +84,10 @@ export default class MetaClient {
 
     const data = typeof input === 'function' ? input(this.context) : input;
 
+    if (!data) {
+      return;
+    }
+
     if (!isServer) {
       let titleElement = null;
 

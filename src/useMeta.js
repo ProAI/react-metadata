@@ -6,9 +6,7 @@ export default function useMeta(data) {
   const client = useContext(MetaContext);
 
   if (!applied.current) {
-    if (data) {
-      client.update(data);
-    }
+    client.update(data);
     applied.current = true;
   }
 }
