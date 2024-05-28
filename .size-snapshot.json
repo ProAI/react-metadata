@@ -1,23 +1,23 @@
 {
-  "react-metadata.cjs.js": {
-    "bundled": 7547,
-    "minified": 4328,
-    "gzipped": 1651
-  },
   "react-metadata.umd.min.js": {
-    "bundled": 8402,
-    "minified": 3898,
-    "gzipped": 1602
+    "bundled": 8451,
+    "minified": 3905,
+    "gzipped": 1599
+  },
+  "react-metadata.cjs.js": {
+    "bundled": 7590,
+    "minified": 4335,
+    "gzipped": 1654
   },
   "react-metadata.umd.js": {
-    "bundled": 8402,
-    "minified": 3898,
-    "gzipped": 1602
+    "bundled": 8451,
+    "minified": 3905,
+    "gzipped": 1599
   },
   "react-metadata.esm.js": {
-    "bundled": 7176,
-    "minified": 4014,
-    "gzipped": 1567,
+    "bundled": 7219,
+    "minified": 4021,
+    "gzipped": 1566,
     "treeshaked": {
       "rollup": {
         "code": 63,
